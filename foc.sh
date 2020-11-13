@@ -20,7 +20,6 @@ caddy_conf(){
      real_addr=`ping ${domainname} -c 1 | sed '1{s/[^(]*(//;s/).*//;q}'`
      local_addr=`curl ipv4.icanhazip.com`
   done
-  fi
   echo "https://${domainname}:2333 {
 root /usr/local/caddy/www/
 timeouts none
