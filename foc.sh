@@ -1,8 +1,8 @@
 #!/bin/bash
-toos_install(){
 apt update
 apt install vim curl git wget zip -y
 apt install python3 python3-pip git -y
+toos_install(){
 wget https://github.com/caddyserver/caddy/releases/download/v1.0.4/caddy_v1.0.4_linux_amd64.tar.gz
 tar -xf caddy_v1.0.4_linux_amd64.tar.gz
 mv caddy /usr/bin/
