@@ -142,7 +142,7 @@ read -p "请输入网站mukey:" key
  elif [ "$aNum" = "2" ] ;then
  sed -i '14s/modwebapi/glzjinmod/' userapiconfig.py
  read -p "请输入数据库地址:" ip
- echo "网站mukey为：${ip}"
+ echo "数据库地址为：${ip}"
  sleep 1
  sed -i '23s/127.0.0.1/'${ip}'/' userapiconfig.py
  read -p "请输入数据库用户名:" user
