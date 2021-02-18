@@ -44,6 +44,8 @@ elif [ $PM = 'yum' ]; then
     yum update -y
     yum install vim curl git wget zip unzip python3 python3-pip git -y
 fi
+pip3 install --upgrade pip
+echo -e
 wget https://github.com/caddyserver/caddy/releases/download/v1.0.4/caddy_v1.0.4_linux_amd64.tar.gz && tar -xf caddy_v1.0.4_linux_amd64.tar.gz
 echo -e
 mv caddy /usr/bin/
