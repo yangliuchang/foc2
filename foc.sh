@@ -166,7 +166,7 @@ read -p "请输入网站mukey:" key
   cd
   cd foc- && chmod +x run.sh && ./run.sh
   else
-            echo "你他妈是猪吗，就两个数字给你选，你都选错，滚！！！"
+            echo "error"
             fi
-echo "已经对接完成！！！ Fly Over Cloud牛逼。"
-echo "本脚本为foc的一键对接脚本，只适用于foc机场"
+echo "已经对接完成！！！ 比奇堡云加速牛逼。"
+echo "本脚本为foc的一键对接脚本，只适用于bqb机场"
